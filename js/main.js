@@ -1,0 +1,2 @@
+var avatar=document.getElementById("avatar"),clear=document.getElementById("clear"),colorInput=document.getElementById("colorInput"),generate=document.getElementById("generate"),arrOptions=["0","1"],result="";generate.onclick=function(){result="";for(let e=0;e<49;e++)"0"==Math.round(Math.random())?result+="<div></div>":result=result+'<div style="background-color:'+colorInput.value+'"></div>';avatar.innerHTML=result},clear.onclick=function(){avatar.innerHTML=""};
+//# sourceMappingURL=../maps/main.js.map
